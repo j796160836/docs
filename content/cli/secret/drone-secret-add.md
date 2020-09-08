@@ -26,11 +26,11 @@ OPTIONS:
 Example usage, creates a secret:
 
 ```
-$ drone secret add octocat/hello-world my_token e72e16c7e42f29
+$ drone secret add octocat/hello-world --name my_token --data e72e16c7e42f29
 ```
 
 Example usage, creates a secret from a file:
 
 ```
-$ drone secret add octocat/hello-world my_token @/path/to/secret.json
+$ drone secret add octocat/hello-world --name my_token --data @/path/to/secret.json
 ```
